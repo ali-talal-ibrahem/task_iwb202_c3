@@ -1,0 +1,102 @@
+<!-- 
+
+Name : Ali Talal Ibrahem 
+User : ali_346678
+course : IWB202
+class : C3 
+
+-->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IWB202 - C3</title>
+</head>
+
+<body>
+    <form action="server.html">
+        <h2>Registration Form :</h2>
+
+        <table>
+            <tr>
+                <td class="first_name"> First Name :</td>
+                <td><input type="text" name="first_name"></td>
+            </tr>
+            <tr>
+                <td class="middle_initial"> Middle Initial :</td>
+                <td><input type="text" name="middle_initial"></td>
+            </tr>
+            <tr>
+                <td class="last_name"> Last Name :</td>
+                <td><input type="text" name="last_name"></td>
+            </tr>
+            <tr>
+                <td class="city"> City :</td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+                <td class="state"> State / Province :</td>
+                <td>
+                    <select name="state">
+                        <option value="option1" selected>Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                        <option value="option4">Option 4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="country"> Country :</td>
+                <td>
+                    <input type="radio" id="Syria" name="country" value="syria">
+                    <label for="syria">Syria</label>
+                    <br>
+                    <input type="radio" id="Lebanon" name="country" value="lebanon">
+                    <label for="lebanon">Lebanon</label>
+                    <br>
+                    <input type="radio" id="Other" name="country" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="zip"> Zip :</td>
+                <td><input type="text" name="zip"></td>
+            </tr>
+            <tr>
+                <td class="email"> Email :</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td class="user_name"> Username :</td>
+                <td><input type="text" name="user_name"></td>
+            </tr>
+            <tr>
+                <td class="password"> Password :</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td class="repeat_password"> Repeat Password :</td>
+                <td><input type="password" name="repeat_password"></td>
+            </tr>
+            <tr>
+                <td class="comments"> Comments :</td>
+                <td><textarea rows="2" cols="30" name="comments"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="agree">I agree to the site terms
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit" name="submit">
+                    <input type="reset" value="Reset Form" name="reset_form">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
